@@ -1,20 +1,22 @@
+/*======Body=======*/
 body{
     margin:0;
     padding:0;
     background:rgba(var(--b3f,250,250,250),1);
 }
-body nav{
+/*======Navbar=======*/
+nav{
     overflow: hidden;
     border-bottom: 5px;
     border-color: rgb(32, 32, 32);
     background-color:white;
-    padding: 5px;
+    padding: 16px;
     position: sticky;
 }
 
 nav .search{
-margin-left: 45%;
-margin-right: 50%;
+margin-left: 40%;
+margin-right: 45%;
 }
 nav .icon-kanan{
     margin-right: 25%;
@@ -30,17 +32,54 @@ nav ul{
 
 nav i{
     width: 20px;
-    margin: 5px;
+    margin: 8px;
 }
 
 nav .logo-ig{
     margin-left: 25%;
  }
 
+ .dropbtn {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: auto;
+  }
+  
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+ 
+  .dropdown-content a:hover {
+     background-color:inherit;
+     font-weight: bolder;
+ }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ 
+ 
+ /*======Sidebar=======*/
 aside{
     float: right;
     width: 35%;
-    padding: 10px;
+    padding: 20px;
     position: sticky;
 }
 
@@ -55,4 +94,23 @@ aside .profil img{
 aside .profil h{
     display: inline;
     float: right;
+}
+/*======Postingan=======*/
+
+#postingan{
+    float: right;
+    width: 35%;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+main img{
+    width: 100%;
+    height: auto;
 }
