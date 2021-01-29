@@ -6,17 +6,17 @@ body{
 }
 /*======Navbar=======*/
 nav{
-    overflow: hidden;
     border-bottom: 5px;
     border-color: rgb(32, 32, 32);
     background-color:white;
     padding: 16px;
     position: sticky;
+    top: 0;
 }
 
 nav .search{
-margin-left: 40%;
-margin-right: 45%;
+float: left;
+margin-left: 40px;
 }
 nav .icon-kanan{
     margin-right: 25%;
@@ -25,8 +25,6 @@ nav .icon-kanan{
 nav li{
     display: inline;
     float: left;
-}
-nav ul{
     list-style-type: none;
 }
 
@@ -39,48 +37,20 @@ nav .logo-ig{
     margin-left: 25%;
  }
 
- .dropbtn {
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
- 
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
- 
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: auto;
-  }
-  
-  .dropdown-content a {
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
- 
-  .dropdown-content a:hover {
-     background-color:inherit;
-     font-weight: bolder;
- }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
  
  
  /*======Sidebar=======*/
 aside{
     float: right;
-    width: 35%;
+    width: 25%;
     padding: 20px;
     position: sticky;
+}
+
+aside button{
+    background: none;
+    border: none;
+    color: blue;
 }
 
 .profil img{
@@ -98,8 +68,12 @@ aside .profil h{
 /*======Postingan=======*/
 
 #postingan{
-    float: right;
+    float: left;
     width: 35%;
+}
+
+main li{
+    list-style-type: none;
 }
 
 .card{
@@ -113,4 +87,19 @@ aside .profil h{
 main img{
     width: 100%;
     height: auto;
+}
+
+#postingan .comment .icon li{
+    display: inline;
+    float: left;
+    list-style-type: none;
+}
+
+#postingan .comment .icon li{
+    margin: 5px;
+}
+
+.card .profil button{
+    background: none;
+    border: none;
 }
