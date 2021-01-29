@@ -3,6 +3,7 @@ body{
     margin:0;
     padding:0;
     background:rgba(var(--b3f,250,250,250),1);
+    font-family: 'Roboto', sans-serif;
 }
 /*======Navbar=======*/
 nav{
@@ -14,14 +15,7 @@ nav{
     top: 0;
 }
 
-nav .search{
-float: left;
-margin-left: 40px;
-}
-nav .icon-kanan{
-    margin-right: 25%;
-    float: right;
-}
+
 nav li{
     display: inline;
     float: left;
@@ -33,16 +27,12 @@ nav i{
     margin: 8px;
 }
 
-nav .logo-ig{
-    margin-left: 25%;
- }
 
  
  
  /*======Sidebar=======*/
 aside{
     float: right;
-    width: 25%;
     padding: 20px;
     position: sticky;
 }
@@ -55,7 +45,7 @@ aside button{
 
 .profil img{
     border-radius: 50%;
-    width: 20px;
+    width: 32px;
 }
 aside .profil img{
     border-radius: 50%;
@@ -67,39 +57,40 @@ aside .profil h{
 }
 /*======Postingan=======*/
 
-#postingan{
-    float: left;
-    width: 35%;
-}
 
-main li{
-    list-style-type: none;
-}
 
-.card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    padding: 20px;
-    margin-top: 20px;
-    overflow: auto;
-}
 
 main img{
     width: 100%;
     height: auto;
 }
 
-#postingan .comment .icon li{
-    display: inline;
-    float: left;
-    list-style-type: none;
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 20px;
+    overflow: auto;
+    width: 100%;
 }
-
-#postingan .comment .icon li{
-    margin: 5px;
-}
-
 .card .profil button{
     background: none;
     border: none;
+    float: right;
 }
+
+.card .profil{
+    padding: 20px;
+}
+.card .profil img{
+    width: 48px;
+}
+
+.comment li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.comment .likes{
+    padding: 20px;
+}
+
