@@ -9,19 +9,16 @@ body{
 nav{
     border-bottom: 5px;
     border-color: rgb(32, 32, 32);
-    background-color:white;
+    background:white;
     padding: 16px;
     position: sticky;
     top: 0;
 }
-
-
 nav li{
     display: inline;
     float: left;
     list-style-type: none;
 }
-
 nav i{
     width: 20px;
     margin: 8px;
@@ -32,7 +29,6 @@ nav i{
  
  /*======Sidebar=======*/
 aside{
-    float: right;
     padding: 20px;
     position: sticky;
 }
@@ -53,12 +49,8 @@ aside .profil img{
 }
 aside .profil h{
     display: inline;
-    float: right;
 }
 /*======Postingan=======*/
-
-
-
 
 main img{
     width: 100%;
